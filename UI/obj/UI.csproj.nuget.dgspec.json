@@ -1,0 +1,104 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\memun\\source\\repos\\EsrtudiantesApp\\UI\\UI.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\memun\\source\\repos\\EsrtudiantesApp\\BLL\\BLL.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\memun\\source\\repos\\EsrtudiantesApp\\BLL\\BLL.csproj",
+        "projectName": "BLL",
+        "projectPath": "C:\\Users\\memun\\source\\repos\\EsrtudiantesApp\\BLL\\BLL.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "C:\\Users\\memun\\source\\repos\\EsrtudiantesApp\\DAL2\\DAL2.csproj": {
+                "projectPath": "C:\\Users\\memun\\source\\repos\\EsrtudiantesApp\\DAL2\\DAL2.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Users\\memun\\source\\repos\\EsrtudiantesApp\\DAL2\\DAL2.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\memun\\source\\repos\\EsrtudiantesApp\\DAL2\\DAL2.csproj",
+        "projectName": "DAL2",
+        "projectPath": "C:\\Users\\memun\\source\\repos\\EsrtudiantesApp\\DAL2\\DAL2.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Users\\memun\\source\\repos\\EsrtudiantesApp\\UI\\UI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\memun\\source\\repos\\EsrtudiantesApp\\UI\\UI.csproj",
+        "projectName": "UI",
+        "projectPath": "C:\\Users\\memun\\source\\repos\\EsrtudiantesApp\\UI\\UI.csproj",
+        "packagesPath": "C:\\Users\\memun\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\memun\\source\\repos\\EsrtudiantesApp\\UI\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\memun\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows",
+            "projectReferences": {
+              "C:\\Users\\memun\\source\\repos\\EsrtudiantesApp\\BLL\\BLL.csproj": {
+                "projectPath": "C:\\Users\\memun\\source\\repos\\EsrtudiantesApp\\BLL\\BLL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WindowsForms": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

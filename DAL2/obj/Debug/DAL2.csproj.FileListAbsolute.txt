@@ -1,0 +1,6 @@
+C:\Users\memun\source\repos\EsrtudiantesApp\DAL2\bin\Debug\DAL2.dll
+C:\Users\memun\source\repos\EsrtudiantesApp\DAL2\bin\Debug\DAL2.pdb
+C:\Users\memun\source\repos\EsrtudiantesApp\DAL2\obj\Debug\DAL2.csproj.AssemblyReference.cache
+C:\Users\memun\source\repos\EsrtudiantesApp\DAL2\obj\Debug\DAL2.csproj.CoreCompileInputs.cache
+C:\Users\memun\source\repos\EsrtudiantesApp\DAL2\obj\Debug\DAL2.dll
+C:\Users\memun\source\repos\EsrtudiantesApp\DAL2\obj\Debug\DAL2.pdb

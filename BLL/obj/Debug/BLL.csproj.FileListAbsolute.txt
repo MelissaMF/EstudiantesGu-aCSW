@@ -1,0 +1,10 @@
+C:\Users\memun\source\repos\EsrtudiantesApp\BLL\bin\Debug\BLL.dll.config
+C:\Users\memun\source\repos\EsrtudiantesApp\BLL\bin\Debug\BLL.dll
+C:\Users\memun\source\repos\EsrtudiantesApp\BLL\bin\Debug\BLL.pdb
+C:\Users\memun\source\repos\EsrtudiantesApp\BLL\bin\Debug\DAL2.dll
+C:\Users\memun\source\repos\EsrtudiantesApp\BLL\bin\Debug\DAL2.pdb
+C:\Users\memun\source\repos\EsrtudiantesApp\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+C:\Users\memun\source\repos\EsrtudiantesApp\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+C:\Users\memun\source\repos\EsrtudiantesApp\BLL\obj\Debug\BLL.csproj.CopyComplete
+C:\Users\memun\source\repos\EsrtudiantesApp\BLL\obj\Debug\BLL.dll
+C:\Users\memun\source\repos\EsrtudiantesApp\BLL\obj\Debug\BLL.pdb
