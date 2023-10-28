@@ -12,8 +12,8 @@
         "frameworks": {
           "net472": {
             "projectReferences": {
-              "C:\\Users\\memun\\source\\repos\\EsrtudiantesApp\\DAL2\\DAL2.csproj": {
-                "projectPath": "C:\\Users\\memun\\source\\repos\\EsrtudiantesApp\\DAL2\\DAL2.csproj"
+              "C:\\Users\\memun\\source\\repos\\EsrtudiantesApp\\DAL2\\DAL.csproj": {
+                "projectPath": "C:\\Users\\memun\\source\\repos\\EsrtudiantesApp\\DAL2\\DAL.csproj"
               }
             }
           }
@@ -23,11 +23,11 @@
         "net472": {}
       }
     },
-    "C:\\Users\\memun\\source\\repos\\EsrtudiantesApp\\DAL2\\DAL2.csproj": {
+    "C:\\Users\\memun\\source\\repos\\EsrtudiantesApp\\DAL2\\DAL.csproj": {
       "restore": {
-        "projectUniqueName": "C:\\Users\\memun\\source\\repos\\EsrtudiantesApp\\DAL2\\DAL2.csproj",
-        "projectName": "DAL2",
-        "projectPath": "C:\\Users\\memun\\source\\repos\\EsrtudiantesApp\\DAL2\\DAL2.csproj",
+        "projectUniqueName": "C:\\Users\\memun\\source\\repos\\EsrtudiantesApp\\DAL2\\DAL.csproj",
+        "projectName": "DAL",
+        "projectPath": "C:\\Users\\memun\\source\\repos\\EsrtudiantesApp\\DAL2\\DAL.csproj",
         "frameworks": {
           "net472": {
             "projectReferences": {}
@@ -64,6 +64,9 @@
             "projectReferences": {
               "C:\\Users\\memun\\source\\repos\\EsrtudiantesApp\\BLL\\BLL.csproj": {
                 "projectPath": "C:\\Users\\memun\\source\\repos\\EsrtudiantesApp\\BLL\\BLL.csproj"
+              },
+              "C:\\Users\\memun\\source\\repos\\EsrtudiantesApp\\DAL2\\DAL.csproj": {
+                "projectPath": "C:\\Users\\memun\\source\\repos\\EsrtudiantesApp\\DAL2\\DAL.csproj"
               }
             }
           }
@@ -77,6 +80,12 @@
       "frameworks": {
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
+          "dependencies": {
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.5, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

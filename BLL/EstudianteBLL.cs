@@ -51,7 +51,10 @@ namespace BLL
 
         public void EliminarEstudiante(String Rut)
         {
-            
+            if (!estudianteDAL.EliminarEstudiante(Rut))
+            {
+                throw new Exception("No se ha eliminado el estudiante");
+            }
         }
 
     }

@@ -17,7 +17,7 @@ namespace DAL
             get { return instance; }
         }
 
-        private static string CONNECTION_STRING = "Data Source=MELISSAMF\\SQLEXPRESS; Initial Catalog=Estudiante; Integrated Security=True";
+        private static string CONNECTION_STRING = "Data Source=MELISSAMF\\SQLEXPRESS; Initial Catalog=Estudiantes; Integrated Security=True";
 
         public int ExecuteNonQuery(string query)
         {

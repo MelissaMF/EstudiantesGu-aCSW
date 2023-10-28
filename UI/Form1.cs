@@ -27,8 +27,8 @@ namespace UI
         public void CargarEstudiantes()
         {
             this.dgvestudiante.Rows.Clear();
-            List<Estudiante> estudaintes = estudianteBLL.ObtenerEstudiantes();
-            foreach (Estudiante e in estudaintes)
+            List<Estudiante> estudiantes = estudianteBLL.ObtenerEstudiantes();
+            foreach (Estudiante e in estudiantes)
             {
                 int n = dgvestudiante.Rows.Add();
                 dgvestudiante.Rows[n].Cells[0].Value = e.Rut;
@@ -61,15 +61,38 @@ namespace UI
 
         private void btnEliminar_Click(object sender, EventArgs e)
         {
-            if (dgvestudiante.SelectedRows.Count<1)
+            if (dgvestudiante.SelectedRows.Count < 1)
             {
                 MessageBox.Show("Debe seleccionar Estudiante",
                     "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
             else
             {
-                //TODO: llamos a la capa BLL para que elimine la tarea
+                try
+                {
+                    DataGridViewRow filaSeleccionada = dgvestudiante.SelectedRows[0];
+                    string rut = filaSeleccionada.Cells[0].Value.ToString();
+                    this.estudianteBLL.EliminarEstudiante(rut);
+                    this.CargarEstudiantes();
+                    MessageBox.Show("El estudiante ha sido eliminado exitosamente.", "Eliminado", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
             }
+        }
+
+        private void dtFechaNacimiento_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnLimpiar_Click(object sender, EventArgs e)
+        {
+            tbApellido.Clear();
+            tbnombre.Clear();
+            tbRut.Clear();
         }
     }
 }

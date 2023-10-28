@@ -1,0 +1,9 @@
+C:\Users\memun\source\repos\EsrtudiantesApp\DAL2\bin\Debug\DAL2.dll
+C:\Users\memun\source\repos\EsrtudiantesApp\DAL2\bin\Debug\DAL2.pdb
+C:\Users\memun\source\repos\EsrtudiantesApp\DAL2\bin\Debug\System.Data.SqlClient.dll
+C:\Users\memun\source\repos\EsrtudiantesApp\DAL2\bin\Debug\System.Data.SqlClient.xml
+C:\Users\memun\source\repos\EsrtudiantesApp\DAL2\obj\Debug\DAL2.csproj.AssemblyReference.cache
+C:\Users\memun\source\repos\EsrtudiantesApp\DAL2\obj\Debug\DAL2.csproj.CoreCompileInputs.cache
+C:\Users\memun\source\repos\EsrtudiantesApp\DAL2\obj\Debug\DAL2.csproj.CopyComplete
+C:\Users\memun\source\repos\EsrtudiantesApp\DAL2\obj\Debug\DAL2.dll
+C:\Users\memun\source\repos\EsrtudiantesApp\DAL2\obj\Debug\DAL2.pdb
